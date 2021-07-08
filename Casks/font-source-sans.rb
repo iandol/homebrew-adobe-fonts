@@ -1,12 +1,12 @@
 cask "font-source-sans" do
-  version "3.028R"
-  sha256 "1186d594ecb1336679a1d102bb6ddbe6041f0fd029482e53f02e46aa3ab011cf"
+  version "3.042R"
+  sha256 "604d99a42b871e19de3654b936fb145db7094941efcdca4981d742d291382b94"
 
-  url "https://github.com/adobe-fonts/source-sans-pro/releases/download/#{version}/source-sans-#{version.sub(/\./, "v")}.zip"
-  appcast "https://github.com/adobe-fonts/source-sans-pro/releases.atom"
+  url "https://github.com/adobe-fonts/source-sans/releases/download/#{version}/source-sans-#{version}.zip"
+  appcast "https://github.com/adobe-fonts/source-sans/releases.atom"
   name "Source Sans"
   desc "Fonts designed for user interfaces"
-  homepage "https://github.com/adobe-fonts/source-sans-pro"
+  homepage "https://github.com/adobe-fonts/source-sans"
 
   font "OTF/SourceSans3-Black.otf"
   font "OTF/SourceSans3-BlackIt.otf"
